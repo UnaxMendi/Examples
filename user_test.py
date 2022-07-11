@@ -21,5 +21,5 @@ class UserTest(unittest.TestCase):
         theadddress = pedro_object.saysAddress()
         self.assertTrue(theadddress.index('london')>=0)
 
-    def NewTest(self):
+    def test_New(self):
         self.assertTrue(True) 
