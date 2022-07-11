@@ -20,3 +20,6 @@ class UserTest(unittest.TestCase):
         pedro_object = User('Pedro', 'p', 34, 'london')
         theadddress = pedro_object.saysAddress()
         self.assertTrue(theadddress.index('london')>=0)
+
+    def test_New(self):
+        self.assertTrue(True) 
